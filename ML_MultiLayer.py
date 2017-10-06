@@ -55,7 +55,7 @@ print(synaptic_weight_1)
 iterations = 60000
 for j in range(iterations):
 
-	# Forward propagate through layers 0, 1, and 2
+    # Forward propagate through layers 0, 1, and 2
     layer0 = input_data
     layer1 = __sigmoid(dot(layer0, synaptic_weight_0))
     layer2 = __sigmoid(dot(layer1, synaptic_weight_1))
